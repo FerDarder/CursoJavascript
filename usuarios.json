@@ -1,0 +1,50 @@
+[
+    {
+        "nombre": "Juan Perez", 
+        "id": "juansito_123", 
+        "puntos": 1,
+        "usuario": false
+    },
+    {
+        "nombre": "Mario Albertengo", 
+        "id": "marito", 
+        "puntos": 10,
+        "usuario": false 
+    }, 
+    {
+        "nombre": "Elvio Darder", 
+        "id": "elvio3011", 
+        "puntos": 2,
+        "usuario": false 
+    },
+    {
+        "nombre": "Esteban Quito", 
+        "id": "este-banquito", 
+        "puntos": 1,
+        "usuario": false
+    }, 
+    {
+        "nombre": "Alessandro Paolini", 
+        "id": "aleCapo123", 
+        "puntos": 0,
+        "usuario": false
+    }, 
+    {
+        "nombre": "Gonzalo Garaventa", 
+        "id": "garaGolDePenal", 
+        "puntos": 4,
+        "usuario": false
+    }, 
+    {
+        "nombre": "Carlos Acinapura", 
+        "id": "kokyacis", 
+        "puntos": 9,
+        "usuario": false
+    }, 
+    {
+        "nombre": "Santiago Quintero", 
+        "id": "santiii", 
+        "puntos": 6,
+        "usuario": false
+    }
+]

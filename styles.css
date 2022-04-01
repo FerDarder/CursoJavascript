@@ -1,0 +1,196 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(./Assets/fondoFutbol.jpg);
+    background-attachment: fixed; 
+    background-size: cover;
+    background-position: center;
+}
+.swal{
+    background-color: aqua;
+}
+
+.achicar{
+    width: 50vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.fila1{
+    border: 4px dashed rgb(139, 138, 138);
+    width: 100%;
+    padding: 0;
+    margin:auto;
+    width: 90%;
+    /* margin-left: 5%; */
+    /* margin-right: 10px; */
+}
+
+form{
+    background-color: rgba(220, 241, 245, 0.288);
+    padding-bottom: 50px;
+    padding-top: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+    border-radius: 10px;
+    border: 6px inset rgb(77, 233, 238);
+}
+
+.centrar{
+    text-align: center;
+}
+h1 {
+    padding-left: 10%;
+    padding-top: 10px;
+    font-size: 13vh;
+    font-family: 'Fredoka', sans-serif;
+}
+header {
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.911), rgba(255, 255, 255, 0.651), #575454); 
+    /* border-radius: 50px; */
+}
+
+#redes {
+    background-image: linear-gradient(to left, rgba(255, 255, 255, 0.911), rgba(255, 255, 255, 0.651), #575454); 
+    padding-top: 10px; 
+}
+
+.redes__logo {
+    height: 6vh;
+    width: 6vh;
+    margin-top: 5%;
+    margin-bottom: 5%; 
+}
+
+
+table{
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    background-color: rgba(248, 194, 123, 0.774);
+}
+
+.usuario{
+    background-color: rgba(248, 194, 123, 0.897);
+}
+
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th, td{
+    padding: 10px;
+}
+th{
+    font-size: larger;
+    font-family: 'Fredoka', sans-serif;
+    background-color:white;
+}
+
+label{
+    color: white;
+}
+
+p, input{
+    text-align: center;
+    background-color: white;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+}
+
+button{
+    margin-left: 20px;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none; 
+    margin: 0; 
+}
+
+
+.frase {
+    text-align: center;
+    color: black;
+    background-color: rgba(255, 255, 255, 0.815);
+    font-size: 200%;
+    font-weight: 500;
+    font-style: oblique;
+    letter-spacing: 5px;
+    word-spacing: 10px;
+    border-radius: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    height: 50px;
+    border-style: groove; 
+}
+
+.frase--llamativa {
+    color: #ffffff;
+    font: normal 40px Varela Round, sans-serif;
+    height: auto;
+    left: 0;
+    letter-spacing: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    width: auto;
+    animation: move linear 2000ms infinite;
+    z-index: 2; 
+}
+
+@keyframes move {
+    0% {
+        text-shadow: 4px -4px 0 #da0641,
+        3px -3px 0 #da0641,
+        2px -2px 0 #da0641,
+        1px -1px 0 #da0641,
+        -4px 4px 0 #13f1fc,
+        -3px 3px 0 #13f1fc,
+        -2px 2px 0 #13f1fc,
+        -1px 1px 0 #13f1fc; 
+    }
+    25% {
+        text-shadow: -4px -4px 0 #13f1fc,
+        -3px -3px 0 #13f1fc,
+        -2px -2px 0 #13f1fc,
+        -1px -1px 0 #13f1fc,
+        4px 4px 0 #da0641,
+        3px 3px 0 #da0641,
+        2px 2px 0 #da0641,
+        1px 1px 0 #da0641; 
+    }
+    50% {
+        text-shadow: -4px 4px 0 #da0641,
+        -3px 3px 0 #da0641,
+        -2px 2px 0 #da0641,
+        -1px 1px 0 #da0641,
+        4px -4px 0 #13f1fc,
+        3px -3px 0 #13f1fc,
+        2px -2px 0 #13f1fc,
+        1px -1px 0 #13f1fc; 
+    }
+    75% {
+        text-shadow: 4px 4px 0 #13f1fc,
+        3px 3px 0 #13f1fc,
+        2px 2px 0 #13f1fc,
+        1px 1px 0 #13f1fc,
+        -4px -4px 0 #da0641,
+        -3px -3px 0 #da0641,
+        -2px -2px 0 #da0641,
+        -1px -1px 0 #da0641; 
+    }
+    100% {
+        text-shadow: 4px -4px 0 #da0641,
+        3px -3px 0 #da0641,
+        2px -2px 0 #da0641,
+        1px -1px 0 #da0641,
+        -4px 4px 0 #13f1fc,
+        -3px 3px 0 #13f1fc,
+        -2px 2px 0 #13f1fc,
+        -1px 1px 0 #13f1fc; 
+    } 
+}
